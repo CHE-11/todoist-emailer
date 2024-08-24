@@ -95,6 +95,9 @@ This is a boolean option that determines if you want to group tasks by project o
   <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="400"/>
 </div>
 
+## Secrets
+Since I am a solo dev, I store my secrets in a cloud storage service after encrption with cryptomator. I push and pull secrets using the scripts in the _scripts_ folder. I also copy my projects over this way. Much easier than manually copying or using something like Hasicorp Vault, Bitwarden, etc. 
+
 ---
 ## Known Issues
 1. Todoist tasks are given a due datetime of the current date at 12am or 0:00 in 24-hour time. To not show the time, I have the script check if the hour is 12:00 AM or 0:00 AM and if so, it will not show the time. This is a bit of a hack, but it works for now. I just assume I won't have tasks that are due at midnight.
