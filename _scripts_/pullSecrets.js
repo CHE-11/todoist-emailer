@@ -10,15 +10,26 @@ const copyEnvFile = () => {
   const sourcePath = path.join('S:/_secrets_', lastSegment, '.env');
   const destinationPath = path.join(cwd, '.env');
 
-  console.log({ sourcePath, destinationPath})
+  const sourcePathProjects = path.join('S:/_secrets_', lastSegment, 'projects.ts');
+  const destinationPathProjects = path.join(cwd, '/src/config/projects.ts'); 
+
+  console.log({ sourcePath, destinationPath, sourcePathProjects, destinationPathProjects})
 
   // Copy the files
   fs.copyFile(sourcePath, destinationPath, (err) => {
     if (err) {
-      console.error('Error copying the file:', err);
+      console.error('Error copying the env file:', err);
       return;
     }
-    console.log('.env.development was copied successfully');
+    console.log('.env was copied successfully');
+  });
+
+  fs.copyFile(sourcePathProjects, destinationPathProjects, (err) => {
+    if (err) {
+      console.error('Error copying the projects.ts file:', err);
+      return;
+    }
+    console.log('projects.ts was copied successfully');
   });
 
 
