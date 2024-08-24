@@ -1,6 +1,6 @@
 
 # Todoist Emailer
-A simple emailer that sends you a daily email with your todoist tasks. I use this to send me a morning and evening email with my todoist tasks so I can see what I need to do in the morning and then the plan for the next day. 
+A simple emailer that sends you a daily email with your todoist tasks. I use this to send me a morning and evening email with my todoist tasks so I can see what I have upcoming in morning and then a recap in the morning. I figured out that I am much better at checking my email than Todoist, so this quick little project helps me continue doing what works for me. 
 
 <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="600"/>
 
