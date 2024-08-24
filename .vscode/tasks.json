@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // Dependencies
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "npm i",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "statusbar": {
+          "hide": false,
+          "color": "#8fbce1"
+        }
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always"
+      }
+    },
+
+    // Start Dev Server
+    {
+      "label": "Run Script",
+      "type": "shell",
+      "command": "ts-node src/main.ts",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "statusbar": {
+          "hide": false,
+          "color": "#00b736"
+        }
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+    },
+  ]
+}

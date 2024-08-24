@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "tslib": "^2.6.3"
+  },
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^3.0.3",
+    "@react-email/components": "^0.0.22",
+    "dayjs": "^1.11.12",
+    "dotenv": "^16.4.5",
+    "react": "^18.3.1"
+  }
+}
