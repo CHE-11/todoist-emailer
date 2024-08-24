@@ -2,7 +2,7 @@
 # Todoist Emailer
 A simple emailer that sends you a daily email with your todoist tasks. I use this to send me a morning and evening email with my todoist tasks so I can see what I need to do in the morning and then the plan for the next day. 
 
-<img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="400"/>
+<img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="600"/>
 
 
 ## Setup
@@ -62,8 +62,8 @@ The second option is to use a package *like* [node-schedule](https://www.npmjs.c
 I have two color themes for the email to best fit your desires. You can also change the theme for morning or nightly emails. 
 
 <div>
-  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Dark Mode" width="400"/>
-  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/light-grouped.png" alt="Light Mode" width="400"/>
+  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Dark Mode" width="600"/>
+  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/light-grouped.png" alt="Light Mode" width="600"/>
 </div>
 
 
@@ -91,8 +91,8 @@ This is a boolean option that determines if you want to use 24 hour time in the 
 This is a boolean option that determines if you want to group tasks by project or just list them all together. This can be useful if you have a lot of tasks with dates assigned and you want to see them all in order. 
 
 <div >
-  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-ungrouped.png" alt="Email Screenshot" width="400"/> 
-  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="400"/>
+  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-ungrouped.png" alt="Email Screenshot" width="600"/> 
+  <img src="https://ce-projects-object-storage.sfo2.digitaloceanspaces.com/todoist-emailer/dark-grouped.png" alt="Email Screenshot" width="600"/>
 </div>
 
 ## Secrets
