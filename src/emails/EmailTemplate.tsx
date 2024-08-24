@@ -136,7 +136,7 @@ function dayColor(daysUntilEvent: number, isDarkMode: boolean): string {
   if (daysUntilEvent < 0)        return '#E5484D';
   else if (daysUntilEvent == 0) return '#E5484D';
   else if (daysUntilEvent == 1) return '#F76B15';
-  else if (daysUntilEvent == 2) return '#F5E147';
+  else if (daysUntilEvent == 2) return '#FFC53D';
   else                           return '#53B365';
 }
 
